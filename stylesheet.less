@@ -259,6 +259,10 @@ input, textarea {
 	padding: 10px 14px;
 }
 
+.nav .widget .extendednavigation ul.align-left li:hover ul {
+	background-color:darken(@color-swatch1,1%);
+}
+
 /* ===============================
    6. MENU
    =============================== */
@@ -365,8 +369,7 @@ input, textarea {
 }
 
 .blog-post-item.has-image {
-	padding:20px 20px 40px 20px;
-	border:2px solid darken(@color-swatch1,5%);
+	padding:20px 0px 40px 0px;
 	margin-bottom:20px;
 }
 
@@ -396,7 +399,7 @@ input, textarea {
 .widget.blogsearch {
 	display:block;
 	clear:both;
-	margin:20px 0px;
+	margin:10px 0px;
 	label {
 		height: 0;
 		text-indent: -200px;
@@ -542,12 +545,12 @@ select {
 			border:0;
 		}
 	}
+	.header, .bloglist-page .blog-post-item, .blogpost-page, .default-page, .menu-page, .home-page, .gallery-featured, .contact-page, .about-page {
+		margin-top:10px;
+	}
 }
 
 @media (max-width: 480px) {
-	.blog-post-feature-image-wrap {
-		display: none;
-	}
 	.blog-post-item, .blogpost-page {
 		&.has-image {
 			.blog-post-content, .blog-post-body, .blog-post-summary h2 {
@@ -563,9 +566,6 @@ select {
 	.widget.companyname a {
 		font-size:bkscale(@font-swatch10-font-size, 0.8);
 		line-height: bkscale(@font-swatch10-line-height, 0.8);
-	}
-	.widget .extendednavigation a.pull {
-		top:-70px;
 	}
 	.widget.blogsearch input[type=search], .widget.blogsearch input[type=search]:focus {
 		width:50%;
