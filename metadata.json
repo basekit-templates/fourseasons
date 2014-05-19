@@ -11,12 +11,12 @@
     {
         "Swatch 1": {
             "color1":"#ffffff",
-            "color2":"#aaaaaa",
-            "color3":"#d12525",
-            "color4":"#e94545",
-            "color5":"#aaaaaa",
+            "color2":"#93AFE9",
+            "color3":"#93AFE9",
+            "color4":"#000000",
+            "color5":"#757575",
             "color6":"#000000",
-            "color7":"#000000"
+            "color7":"#ffffff"
         },
         "Swatch 2": {
             "color1":"#ffffff",
@@ -24,7 +24,7 @@
             "color3":"#841c2f",
             "color4":"#000000",
             "color5":"#3c4a55",
-            "color6":"#841c2f",
+            "color6":"#000000",
             "color7":"#ffffff"
         },
         "Swatch 3": {
@@ -33,17 +33,17 @@
             "color3":"#4F7391",
             "color4":"#000000",
             "color5":"#3c4a55",
-            "color6":"#4F7391",
+            "color6":"#000000",
             "color7":"#ffffff"
         },
         "Swatch 4": {
             "color1":"#ffffff",
-            "color2":"#73AD5C",
-            "color3":"#73AD5C",
+            "color2":"#aaaaaa",
+            "color3":"#000000",
             "color4":"#000000",
-            "color5":"#757575",
-            "color6":"#73AD5C",
-            "color7":"#ffffff"
+            "color5":"#aaaaaa",
+            "color6":"#000000",
+            "color7":"#000000"
         },
         "Swatch 5": {
             "color1":"#ffffff",
@@ -51,7 +51,7 @@
             "color3":"#4BA5A1",
             "color4":"#000000",
             "color5":"#3c4a55",
-            "color6":"#4BA5A1",
+            "color6":"#000000",
             "color7":"#ffffff"
         }
     },
@@ -68,7 +68,7 @@
         "font2": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "22px",
-            "font-weight": "700",
+            "font-weight": "300",
             "line-height": "32px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
@@ -119,26 +119,26 @@
             "background-color-hover": "darken(@color-swatch3,5%)"
         },
         "font8": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "28px",
-            "font-weight": "600",
-            "line-height": "36px",
+            "font-family": "\"Droid Serif\", Georgia, serif",
+            "font-size": "32px",
+            "font-weight": "700",
+            "line-height": "38px",
             "color": "@color-swatch1",
-            "letter-spacing": "inherit"
+            "letter-spacing": "-2px"
         },
         "font9": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "18px",
-            "font-weight": "300",
+            "font-weight": "400",
             "line-height": "28px",
             "color": "@color-swatch1",
             "letter-spacing": "inherit"
         },
         "font10": {
             "font-family": "\"Droid Serif\", Georgia, serif",
-            "font-size": "52px",
+            "font-size": "42px",
             "font-weight": "600",
-            "line-height": "60px",
+            "line-height": "50px",
             "color": "@color-swatch4",
             "letter-spacing": "-5px"
         }

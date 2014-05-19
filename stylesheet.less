@@ -9,7 +9,7 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	font-size: 12px;
-	background-color:@color-swatch1;
+	background-color:darken(@color-swatch1,5%);
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -56,6 +56,10 @@ body {
 	display:inline-block;
 }
 
+.logo-title {
+	padding-top:30px;
+}
+
 .footer {
 	clear: both;
 	text-align: center;
@@ -88,9 +92,6 @@ button, button span, .widget.tweet a, input[type="submit"] {
 
 
 .nav {
-	border-top: 1px solid lighten(@color-swatch5,40%);
-	border-bottom: 1px solid lighten(@color-swatch5,40%);
-	padding: 20px 0px;
 	margin: 20px 0px;
 	li, .widget .extendednavigation ul.align-left li {
 		margin-left: 0;
@@ -387,7 +388,7 @@ input, textarea {
 .widget.blogsearch {
 	display:block;
 	clear:both;
-	margin-bottom:20px;
+	margin:20px 0px;
 	label {
 		height: 0;
 		text-indent: -200px;
