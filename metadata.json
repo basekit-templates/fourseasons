@@ -67,9 +67,9 @@
         },
         "font2": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "24px",
-            "font-weight": "300",
-            "line-height": "34px",
+            "font-size": "22px",
+            "font-weight": "700",
+            "line-height": "32px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
@@ -135,7 +135,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Droid Serif\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Droid Serif\", Georgia, serif",
             "font-size": "52px",
             "font-weight": "600",
             "line-height": "60px",
