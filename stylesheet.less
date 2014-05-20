@@ -267,6 +267,15 @@ input, textarea {
 	background-color:darken(@color-swatch1,1%);
 }
 
+.widget.profile span, .widget.profile p {
+	font-family: @font-swatch6-font-family;
+    font-size: @font-swatch6-font-size;
+    font-weight: @font-swatch6-font-weight;
+    line-height: @font-swatch6-line-height;
+    color: @font-swatch6-color;
+    letter-spacing: @font-swatch6-letter-spacing;
+}
+
 /* ===============================
    6. MENU
    =============================== */
@@ -565,6 +574,13 @@ select {
 	.span-8, .span-4 {
 		width:100%;
 	}
+	select {
+		width:100%;
+	}
+	.blogpost .blog-post-feature-image-wrap, .blog-post-list .blog-post-feature-image-wrap {
+		width:100%;
+	}
+
 }
 
 @media (max-width: 480px) {
