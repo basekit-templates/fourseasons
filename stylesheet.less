@@ -263,6 +263,10 @@ input, textarea {
 	padding: 10px 14px;
 }
 
+.signupform fieldset input {
+	width:75%;
+}
+
 .nav .widget .extendednavigation ul.align-left li:hover ul {
 	background-color:darken(@color-swatch1,1%);
 }
@@ -307,6 +311,10 @@ input, textarea {
     line-height: @font-swatch2-line-height;
     color: @font-swatch2-color;
     letter-spacing: @font-swatch2-letter-spacing;
+}
+
+.menu-subsection-wrapper.menu-subsection-promoted, .menu-item.menu-item-promoted {
+	margin-left:0;
 }
 
 /* ===============================
@@ -373,7 +381,7 @@ input, textarea {
 }
 
 .blog-post-item.has-image {
-	padding:20px 0px 40px 0px;
+	padding:0px 0px 40px 0px;
 	margin-bottom:20px;
 }
 
@@ -496,7 +504,7 @@ select {
    7. RESPONSIVE
    =============================== */
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
 	.left, .right {
 		text-align: left;
 		float: none;
@@ -552,6 +560,15 @@ select {
 	.header, .bloglist-page .blog-post-item, .blogpost-page, .default-page, .menu-page, .home-page, .gallery-featured, .contact-page, .about-page {
 		margin-top:10px;
 	}
+	.widget.extendednavigation .bk-overlay {
+		width: 40px;
+		left: inherit !important;
+		top: -50px;
+		height: 30px;
+	}
+	.span-8, .span-4 {
+		width:98%;
+	}
 }
 
 @media (max-width: 480px) {
@@ -577,5 +594,11 @@ select {
 	.widget.responsiveslideshow .slideshow-widget .btn-play {
 		width: 16%;
 		left: 42%;
+	}
+	.logo-title {
+		padding-top:0;
+	}
+	.widget.companyname {
+		max-width:140px;
 	}
 }
