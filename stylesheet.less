@@ -27,6 +27,9 @@ body {
 
 .container {
 	margin: 30px auto 100px;
+	@media @tablet {
+		margin: 0px auto 10px;
+	}
 }
 
 .header, .bloglist-page .blog-post-item, .blogpost-page, .default-page, .menu-page, .home-page, .gallery-featured, .contact-page, .about-page {
@@ -533,9 +536,6 @@ select {
 	}
 	.header, .bloglist-page .blog-post-item, .blogpost-page, .default-page, .menu-page, .home-page, .gallery-featured, .contact-page, .about-page {
 		margin-top:10px;
-	}
-	.span-8, .span-4 {
-		width:100%;
 	}
 	select {
 		width:100%;
