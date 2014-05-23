@@ -2,6 +2,7 @@
     "name":"fourseasons",
     "thumbnail":"fourseasons.png",
     "screenshot":"fourseasons.png",
+    "pageTypes":["default","home"],
     "tags": {
     "en": ["blog"],
     "es": ["blog"],
@@ -99,9 +100,9 @@
         },
         "font6": {
             "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "14px",
+            "font-size": "17px",
             "font-weight": "400",
-            "line-height": "24px",
+            "line-height": "36px",
             "color": "@color-swatch6",
             "color-hover": "@color-swatch3",
             "letter-spacing": "inherit",
