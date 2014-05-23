@@ -27,9 +27,17 @@
 	{% include basekit.headScript %}
 </head>
 <body class="{{ page.backgroundClass }}">
+	
+	<div class="container">
+		<div class="row">
 
-	{% block content %}
-	{% endblock %}
+			{% include "header.twig" %}
+
+			{% block content %}
+			{% endblock %}
+
+		</div>
+	</div>
 	
 	{% include basekit.bodyScript %}
 	<script type="text/javascript">

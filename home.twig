@@ -1,5 +1,11 @@
-{% include "header.twig" %}
+{% extends "layout.twig" %}
 
-<article class="home-page">
-	{{zone('main')|raw}}
-</article>
+{% block content %}
+
+<section class="section span-8">
+	<article class="home-page">
+		{{zone('main')|raw}}
+	</article>
+</section>
+
+{% endblock %}

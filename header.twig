@@ -1,14 +1,10 @@
 <!-- Header Include !-->
-<div class="container">
-	<div class="row">
-		<header class="header span-4">
-			<div class="logo-title">
-			{{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
-			{{widget('companyname', 'companyname', {"business": "Four Seasons"})|raw}}
-			</div>
-			<nav class="nav">
-				{{widget('extendednavigation', 'navigationheader', {})|raw}}
-			</nav>
-		</header>
-
-		<section class="section span-8">
+<header class="header span-4">
+	<div class="logo-title">
+		{{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+		{{widget('companyname', 'companyname', {"business": "Four Seasons"})|raw}}
+	</div>
+	<nav class="nav">
+		{{widget('extendednavigation', 'navigationheader', {})|raw}}
+	</nav>
+</header>

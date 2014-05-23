@@ -32,7 +32,9 @@ body {
 .header, .bloglist-page .blog-post-item, .blogpost-page, .default-page, .menu-page, .home-page, .gallery-featured, .contact-page, .about-page {
 	padding: 40px;
 	background: @color-swatch1;
-	float: left;
+	@media @tablet {
+		padding: 30px;
+	}
 }
 
 .article.home-page {
@@ -83,6 +85,9 @@ button, button span, .widget.tweet a, input[type="submit"] {
 
 .nav {
 	margin: 20px 0px;
+	@media @tablet {
+		margin: 0;
+	}
 	li {
 		margin-left: 0;
 		float: none;
@@ -521,7 +526,7 @@ select {
 		color: @color-swatch4;
 	}
 	.widget .extendednavigation ul {
-		padding-top:0;
+		padding-top:20px;
 		li {
 			border:0;
 		}
@@ -542,6 +547,19 @@ select {
 }
 
 @media (max-width: 480px) {
+	
+	header {
+		text-align: center;
+	}
+
+	.widget.logo {
+		width: 100%;
+	}
+
+	.widget .extendednavigation a.pull {
+		top: -98px;
+	}
+
 	.blog-post-item, .blogpost-page {
 		&.has-image {
 			.blog-post-content, .blog-post-body, .blog-post-summary h2 {
@@ -567,8 +585,5 @@ select {
 	}
 	.logo-title {
 		padding-top:0;
-	}
-	.widget.companyname {
-		max-width:140px;
 	}
 }
