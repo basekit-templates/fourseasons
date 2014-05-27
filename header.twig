@@ -7,4 +7,10 @@
 	<nav class="nav">
 		{{widget('extendednavigation', 'navigationheader', {})|raw}}
 	</nav>
+	<aside class="aside">
+		{{widget('content', 'about-content', {content: '<p>Cras ut hendrerit nunc. Etiam ut viverra lacus. Donec sagittis, nibh ut dapibus convallis, turpis leo scelerisque lectus.</p>', lines: 'all'})|raw}}
+		<div class="social">
+			{{widget('profile', 'headersocialicons', { 'profileType' : 'socialicons' })|raw}}
+		</div>
+	</aside>
 </header>

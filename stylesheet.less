@@ -112,6 +112,7 @@ button, button span, .widget.tweet a, input[type="submit"] {
 				&.folder {
 					&:hover {
 						ul {
+							position: relative;
 							width: 100%;
 							padding: 20px;
 							background-color:darken(@color-swatch1,5%);
@@ -481,11 +482,10 @@ select {
    7. RESPONSIVE
    =============================== */
 
-@media (max-width: 770px) {
+@media (max-width: 780px) {
 
 	.widget .extendednavigation a.pull {
-		margin-top: -37px;
-		top: 0;
+		// top: 0;
 	}
 
 	.left, .right {
