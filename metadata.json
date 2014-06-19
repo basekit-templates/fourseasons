@@ -2,7 +2,6 @@
     "name":"Four Seasons",
     "thumbnail":"fourseasons.png",
     "screenshot":"fourseasons.png",
-    "pageTypes":["default","home"],
     "templateType":"blog",
     "tags": {
     "en": ["blog"],
